@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_appName__",
+  "short_name": "Nordnet blur",
+  "version": "0.1",
+  "description": "__MSG_appDesc__",
+  "default_locale": "sv",
+  "author": "crash007",
+  "permissions": [
+    "https://*.nordnet.se/",
+    "http://*.nordnet.se/"
+  ],
+  "icons": {
+    "48": "data/letter-n-48.png",
+    "128": "data/letter-n-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "data/letter-n-48.png",
+      "128": "data/letter-n-128.png"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "css": [
+        "frontend.css"
+      ],
+      "matches": [
+        "https://*.nordnet.se/*",
+        "http://*.nordnet.se/"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{bf97be04-5a88-439c-a533-ad4216c27214}"
+    }
+  }
+  
+
+}

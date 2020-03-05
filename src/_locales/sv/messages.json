@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Nordnet blur",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Sudda ut känsliga siffror",
+    "description":"The description of the application, displayed in the web store."
+  }
+}

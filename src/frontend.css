@@ -1,0 +1,62 @@
+
+div[class*="CssGrid__RawCssGridItem"]:nth-of-type(2) div[class^="SummaryPanel"] > div[class^="LabeledValue"] > span{
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div[class*="CssGrid__RawCssGridItem"]:nth-of-type(2) div[class^="SummaryPanel"] > div[class^="LabeledValue"] > span{
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+div[class*="CssGrid__RawCssGridItem"]:nth-of-type(2) div[class^="CssGrid"] > div[class^="LabeledValue"] > span{
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/* Första sidan översikt */
+
+div[class*="CssGrid__RawCssGridItem"]:nth-of-type(1) ul li div[class^="Flexbox"] >span[class^="Typography"]{
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div[class*="CssGrid__RawCssGridItem"]:nth-of-type(1) ul li div[class^="Flexbox"] > span[class^="AccountListItem"]:nth-of-type(2) > span{
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+span[class*="AccountOverviewPerformance__StyledTypography"] > span:nth-of-type(2) {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/* Depåöversikt */
+div[class*="OwnCapital"] span:not([class*=Development]), div[class*="TradingPower"] span{
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Börshandlat */
+div[class*="Accounts__PageContainer"]  div[class*="CssGrid__StyledDiv"] > div[class*="CssGrid__RawCssGridItem"]:nth-of-type(4) td:nth-of-type(3){
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div[class*="Accounts__PageContainer"]  div[class*="CssGrid__StyledDiv"] > div[class*="CssGrid__RawCssGridItem"]:nth-of-type(4) td:nth-of-type(11){
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div[class*="Accounts__PageContainer"]  div[class*="CssGrid__StyledDiv"] > div[class*="CssGrid__RawCssGridItem"]:nth-of-type(4) td:nth-of-type(12){
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div[class*="Accounts__PageContainer"]  div[class*="CssGrid__StyledDiv"] > div[class*="CssGrid__RawCssGridItem"]:nth-of-type(4) td:nth-last-child(2) span{
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
